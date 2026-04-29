@@ -73,9 +73,9 @@ The website is deployed through Netlify using manual folder deployment.
 Add screenshots here:
 
 ```md
-![Homepage Screenshot](screenshots/homepage.png)
-![Services Section](screenshots/services.png)
-![Contact Section](screenshots/contact.png)
+![Homepage Screenshot](homepage screenshot.png)
+![Services Section](services-screenshot.png)
+![Contact Section](contact-screenshot.png)
 
 ## Author
 
