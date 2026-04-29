@@ -68,14 +68,7 @@ This project was built as a real-world client website to practice front-end deve
 
 The website is deployed through Netlify using manual folder deployment.
 
-## Screenshots
 
-Add screenshots here:
-
-```md
-![Homepage Screenshot](homepage-screenshot.png)
-![Services Section](limitless-outdoor-living-site/screenshots-limitless/services-screenshot.png)
-![Contact Section](limitless-outdoor-living-site/screenshots-limitless/contact-screenshot.png)
 
 
 
