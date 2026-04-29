@@ -1,0 +1,1932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="small-favicon-logo-1.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="Iz_BSQy20Mq2ifVzmaz4wfAQG66qwXwcb93sr2gMURQ" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Limitless Outdoor Living | Luxury Backyard & Outdoor Transformations</title>
+  <meta name="description" content="Luxury outdoor living design and construction in Metro Atlanta. Custom decks, patios, cabanas, and backyard transformations built to impress.">
+  <meta name="keywords" content="outdoor living, backyard renovation, deck builder, cabana restoration, patio upgrades, Atlanta outdoor living, custom carpentry">
+  <meta property="og:title" content="Limitless Outdoor Living" />
+  <meta property="og:description" content="Luxury outdoor living transformations, cabanas, patios, and custom backyard upgrades." />
+  <meta property="og:image" content="limitless-img-11.png" />
+  <meta property="og:url" content="https://limitlessoutdoorliving.netlify.app" />
+  <meta property="og:type" content="website" />
+  <meta name="geo.region" content="US-GA">
+  <meta name="geo.placename" content="Atlanta">
+  <meta name="geo.position" content="33.7490;-84.3880">
+  <meta name="ICBM" content="33.7490, -84.3880">
+  <meta name="author" content="Limitless Outdoor Living">
+  <meta name="robots" content="index, follow">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    :root {
+      --navy: #0e2a47;
+      --navy-2: #12385e;
+      --blue: #1d74b7;
+      --blue-soft: #dff2ff;
+      --gold: #c89a52;
+      --gold-soft: #efd9b4;
+      --charcoal: #1f252c;
+      --slate: #5e6b78;
+      --white: #ffffff;
+      --offwhite: #f7f8fa;
+      --border: rgba(14, 42, 71, 0.1);
+      --shadow: 0 20px 50px rgba(14, 42, 71, 0.12);
+      --radius: 22px;
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--charcoal);
+      background: radial-gradient(circle at top left, rgba(200,154,82,0.08), transparent 22%),
+                  radial-gradient(circle at top right, rgba(29,116,183,0.05), transparent 20%),
+                  linear-gradient(180deg, #f8f5ef 0%, #f4f1eb 40%, #f8f6f2 100%);
+      line-height: 1.6;
+    }
+
+    #about {
+  background: linear-gradient(180deg, #f8f5ef 0%, #f4f0e8 100%);
+}
+
+#projects {
+  background: linear-gradient(180deg, #f3f6fa 0%, #edf2f7 100%);
+}
+
+#why-us {
+  background: linear-gradient(180deg, #f9f7f2 0%, #f3efe8 100%);
+}
+
+.testimonials {
+  background: linear-gradient(180deg, #f5f8fb 0%, #ffffff 100%);
+}
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(calc(100% - 2rem), var(--max));
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 1rem;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 2px;
+      background: var(--gold);
+      border-radius: 999px;
+    }
+
+   .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.95rem 1.35rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, color 0.25s ease;
+  cursor: pointer;
+  will-change: transform;
+}
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold), #e0b36c);
+      color: var(--navy);
+      box-shadow: 0 12px 25px rgba(200, 154, 82, 0.28);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 35px rgba(200, 154, 82, 0.35);
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(255,255,255,0.18);
+      color: var(--white);
+      backdrop-filter: blur(10px);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.18);
+    }
+
+    .btn-dark {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .btn-dark:hover {
+      background: var(--navy-2);
+      transform: translateY(-2px);
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(10, 24, 41, 0.82);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      min-height: 78px;
+    }
+
+    .brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--white);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.logo-img {
+  height: 68px;
+  width: 68px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.brand-text strong {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.brand-text small {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.72;
+  font-weight: 600;
+  margin-top: 4px;
+}
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.25rem;
+      padding: 0;
+      margin: 0;
+      color: rgba(255,255,255,0.9);
+      font-weight: 600;
+      font-size: 0.96rem;
+    }
+
+    nav ul li a {
+  position: relative;
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  font-weight: 600;
+  padding-bottom: 6px;
+  transition: color 0.3s ease;
+}
+
+   
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--gold), #f0c47a);
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: var(--gold-soft);
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .mobile-toggle {
+      display: none;
+      background: transparent;
+      color: white;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+   .hero {
+  position: relative;
+  color: var(--white);
+  overflow: hidden;
+  background: #0d2238;
+}
+
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0;
+  animation: videoFade 1.4s ease forwards;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(7, 19, 33, 0.58), rgba(7, 19, 33, 0.72)),
+    radial-gradient(circle at top right, rgba(29,116,183,0.25), transparent 30%);
+  z-index: 0;
+}
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 140px;
+      background: linear-gradient(to top, var(--white), transparent);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      min-height: 88vh;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      align-items: center;
+      gap: 2rem;
+      padding: 4.5rem 0 7rem;
+    }
+
+    .hero h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.9rem, 6vw, 5.6rem);
+      line-height: 0.98;
+      margin: 0 0 1.2rem;
+      max-width: 12ch;
+      letter-spacing: -0.04em;
+    }
+
+    .hero p {
+      max-width: 620px;
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.88);
+      margin: 0 0 1.8rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero-points {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      max-width: 720px;
+    }
+
+    .hero-points div {
+      padding: 1rem;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-points strong {
+      display: block;
+      font-size: 1.1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .hero-card {
+      justify-self: end;
+      width: min(100%, 420px);
+      background: rgba(255,255,255,0.92);
+      color: var(--charcoal);
+      border-radius: 28px;
+      padding: 1.4rem;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(255,255,255,0.25);
+    }
+
+    .hero-card img {
+      border-radius: 20px;
+      height: 230px;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .hero-card h3 {
+      margin: 0 0 0.5rem;
+      color: var(--navy);
+    }
+
+    .hero-card p {
+      color: var(--slate);
+      font-size: 0.97rem;
+      margin: 0 0 1rem;
+    }
+
+    .trust-bar {
+      background: var(--white);
+      position: relative;
+      z-index: 2;
+      margin-top: -42px;
+    }
+
+    .trust-wrap {
+      background: var(--white);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      border-radius: 26px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      overflow: hidden;
+    }
+
+    .trust-item {
+      padding: 1.3rem 1.2rem;
+      background: linear-gradient(180deg, #fff, #fcfdff);
+      text-align: center;
+    }
+
+    .trust-item strong {
+      display: block;
+      color: var(--navy);
+      margin-bottom: 0.25rem;
+    }
+
+    section {
+      padding: 6rem 0;
+      position: relative;
+    }
+
+
+
+section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(92%, 1180px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(14,42,71,0.08), transparent);
+}
+
+    .section-head {
+      max-width: 760px;
+      margin-bottom: 2.5rem;
+    }
+
+    .section-head h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--navy);
+      font-size: clamp(2rem, 4vw, 3.25rem);
+      line-height: 1.05;
+      margin: 0 0 1rem;
+      letter-spacing: -0.04em;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--slate);
+      font-size: 1.05rem;
+    }
+
+   
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .about-copy {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .about-copy p {
+      margin: 0;
+      color: var(--slate);
+    }
+
+    .about-bullets {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .bullet {
+      padding: 1rem;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--offwhite);
+      font-weight: 700;
+      color: var(--navy);
+    }
+
+    .image-stack {
+      position: relative;
+      min-height: 520px;
+    }
+
+    .image-stack img {
+      position: absolute;
+      border-radius: 26px;
+      box-shadow: var(--shadow);
+      object-fit: cover;
+      border: 6px solid white;
+    }
+
+    .img-main {
+      inset: 0 60px 80px 0;
+    }
+
+    .img-float {
+      width: 48%;
+      height: 48%;
+      right: 0;
+      bottom: 0;
+    }
+
+  .services {
+  position: relative;
+  overflow: hidden;
+  background: #0d2238;
+  padding: 8rem 0;
+}
+
+.services-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.services-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(10, 24, 41, 0.58), rgba(10, 24, 41, 0.72)),
+    radial-gradient(circle at center, rgba(29,116,183,0.18), transparent 45%);
+  z-index: 1;
+}
+
+.services-fade-top,
+.services-fade-bottom {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.services-fade-top {
+  top: 0;
+  background: linear-gradient(
+    to bottom,
+    #f8f5ef 0%,
+    rgba(248, 245, 239, 0.92) 18%,
+    rgba(248, 245, 239, 0.65) 38%,
+    rgba(248, 245, 239, 0.18) 70%,
+    rgba(248, 245, 239, 0) 100%
+  );
+}
+
+.services-fade-bottom {
+  bottom: 0;
+  background: linear-gradient(
+    to top,
+    #f3f6fa 0%,
+    rgba(243, 246, 250, 0.92) 18%,
+    rgba(243, 246, 250, 0.65) 38%,
+    rgba(243, 246, 250, 0.18) 70%,
+    rgba(243, 246, 250, 0) 100%
+  );
+}
+
+.services-content {
+  position: relative;
+  z-index: 3;
+}
+
+.services .section-head h2,
+.services .section-head p,
+.services .eyebrow {
+  color: var(--white);
+}
+
+.services .eyebrow::before {
+  background: var(--gold);
+}
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.6rem;
+    }
+
+  .service-card {
+  padding: 2rem;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(255,255,255,0.22);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(8px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 48px rgba(0, 0, 0, 0.18);
+}
+.service-card h3 {
+  margin: 0 0 0.8rem;
+  color: var(--navy);
+  font-size: 1.65rem;
+  line-height: 1.2;
+}
+
+.service-card p {
+  margin: 0;
+  color: var(--slate);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+ 
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+  background: linear-gradient(135deg, #dcecff, #bcd9f5);
+}
+
+.service-icon svg {
+  width: 26px;
+  height: 26px;
+  stroke-width: 2;
+  color: #0e2a47;
+}
+
+.service-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.service-number {
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  background: linear-gradient(135deg, rgba(29,116,183,0.12), rgba(29,116,183,0.24));
+  color: var(--blue);
+  font-size: 1.05rem;
+  font-weight: 800;
+  border: 1px solid rgba(29,116,183,0.14);
+  box-shadow: 0 10px 24px rgba(29,116,183,0.10);
+}
+   
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.3rem;
+    }
+
+    .project-card {
+  border-radius: 24px;
+  overflow: hidden;
+  background: white;
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 25px rgba(14, 42, 71, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 44px rgba(14, 42, 71, 0.14);
+}
+
+    .project-card img {
+      height: 255px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .project-content {
+      padding: 1.25rem;
+    }
+
+    .project-content span {
+      display: inline-block;
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--blue);
+      font-weight: 800;
+      margin-bottom: 0.55rem;
+    }
+
+    .project-content h3 {
+      margin: 0 0 0.4rem;
+      color: var(--navy);
+    }
+
+    .project-content p {
+      margin: 0;
+      color: var(--slate);
+    }
+
+    .comparison {
+      background: linear-gradient(180deg, #0d2238, #112f4f);
+      color: white;
+    }
+
+    .comparison .section-head h2,
+    .comparison .section-head p {
+      color: white;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.4rem;
+    }
+
+    .compare-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 26px;
+      padding: 1rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .compare-card .label {
+      display: inline-block;
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.76rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 0.8rem;
+    }
+
+    .label.before {
+      background: rgba(255,255,255,0.1);
+    }
+
+    .label.after {
+      background: rgba(200,154,82,0.18);
+      color: #ffe7c1;
+    }
+
+    .compare-card img {
+      height: 320px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+
+    .compare-card h3 {
+      margin: 1rem 0 0.4rem;
+    }
+
+    .compare-card p {
+      margin: 0;
+      color: rgba(255,255,255,0.78);
+    }
+
+    #why-us {
+  position: relative;
+  background: url('why-us-img.jpg') center/cover no-repeat;
+  overflow: hidden;
+}
+
+#why-us::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 24, 41, 0.82),
+    rgba(10, 24, 41, 0.72)
+  );
+}
+
+#why-us .container {
+  position: relative;
+  z-index: 2;
+}
+
+#why-us .section-head h2 {
+  color: #ffffff;
+}
+
+#why-us .section-head p {
+  color: rgba(255,255,255,0.85);
+}
+
+#why-us .eyebrow {
+  color: var(--gold);
+}
+
+#why-us .eyebrow::before {
+  background: var(--gold);
+}
+
+
+
+.why-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.5rem 1.8rem;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0e2a47, #12385e);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+}
+
+.why-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  background: linear-gradient(120deg, rgba(200,154,82,0.15), transparent);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.why-card:hover::before {
+  opacity: 1;
+}
+
+.why-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 55px rgba(0, 0, 0, 0.45);
+}
+
+.why-card h3 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.why-card p {
+  color: rgba(255,255,255,0.85);
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+    .testimonials {
+      background: linear-gradient(180deg, var(--offwhite), #ffffff);
+    }
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.3rem;
+    }
+
+    .testimonial {
+      padding: 1.6rem;
+      border-radius: 24px;
+      background: white;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 24px rgba(14, 42, 71, 0.06);
+    }
+
+    .testimonials-section {
+    position: relative;
+    padding: 100px 0;
+    background: url('first pic 2.png') center/cover no-repeat;
+    z-index: 1;
+}
+
+
+.testimonials-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 20, 35, 0.75); 
+    z-index: -1;
+}
+
+.testimonials-section h2,
+.testimonials-section p,
+.testimonials-section .testimonial-card {
+    color: white;
+}
+
+.testimonial-card {
+  background: linear-gradient(135deg, rgba(14, 42, 71, 0.92), rgba(18, 56, 94, 0.95));
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  color: white;
+
+  border-radius: 24px; 
+  padding: 28px;
+}
+
+.testimonial-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.42);
+}
+.testimonials-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background: linear-gradient(to bottom, transparent, #f5f5f5);
+}
+
+    .stars {
+      color: var(--gold);
+      letter-spacing: 0.18em;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial p {
+      margin: 0 0 1rem;
+      color: var(--slate);
+    }
+
+    .testimonial strong {
+      color: var(--navy);
+    }
+
+    .testimonials-section .testimonial-card p {
+    color: rgba(255,255,255,0.85);
+}
+
+.testimonials-section .testimonial-card strong {
+    color: white;
+}
+
+    .cta {
+      padding-top: 2rem;
+    }
+
+    .cta-wrap {
+      background: linear-gradient(135deg, var(--navy), var(--navy-2));
+      color: white;
+      border-radius: 30px;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 1rem;
+      align-items: center;
+      box-shadow: var(--shadow);
+    }
+
+    .cta-wrap h3 {
+      font-size: clamp(1.8rem, 4vw, 2.7rem);
+      margin: 0 0 0.6rem;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    .cta-wrap p {
+      margin: 0;
+      color: rgba(255,255,255,0.8);
+      max-width: 640px;
+    }
+
+   #contact {
+  scroll-margin-top: 65px;
+  padding-top: 2.5rem;
+}
+
+.contact-intro {
+  color: var(--slate);
+  margin: 0 0 1.3rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.contact-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.35rem;
+}
+
+.contact-highlight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1.15rem;
+  border-radius: 18px;
+  text-decoration: none;
+  border: 1px solid rgba(14, 42, 71, 0.08);
+  background: linear-gradient(135deg, #ffffff, #f4f8fc);
+  box-shadow: 0 10px 24px rgba(14, 42, 71, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.contact-highlight:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 34px rgba(14, 42, 71, 0.12);
+  border-color: rgba(29, 116, 183, 0.22);
+  background: linear-gradient(135deg, #ffffff, #eef6fd);
+}
+
+.contact-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-label svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.contact-highlight strong {
+  display: block;
+  color: var(--navy);
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
+  word-break: break-word;
+}
+
+.contact-highlight small {
+  color: var(--slate);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.contact-item {
+  margin-top: 0.2rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.82);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 18px rgba(14, 42, 71, 0.04);
+}
+
+.contact-item.service-area-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  text-align: center;
+  font-size: 1.02rem;
+  width: fit-content;
+  margin: 0.2rem auto 0;
+  padding: 1rem 1.4rem;
+  background: linear-gradient(135deg, #ffffff, #f4f8fc);
+}
+
+.contact-item.service-area-item strong,
+.contact-item.service-area-item span {
+  display: inline;
+  margin: 0;
+}
+
+.contact-item.service-area-item svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--blue);
+  flex-shrink: 0;
+}
+
+.contact-form {
+  margin-top: 1rem;
+  padding:  0 8px 0 14px;
+}
+
+.contact-highlight-phone:hover {
+  border-color: rgba(29, 116, 183, 0.28);
+}
+
+.contact-highlight-text:hover {
+  border-color: rgba(200, 154, 82, 0.28);
+}
+
+.contact-highlight-email:hover {
+  border-color: rgba(14, 42, 71, 0.2);
+}
+
+@media (max-width: 900px) {
+  .contact-highlight-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    margin-top: 0.4rem;
+  }
+
+ .contact-item.service-area-item {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+}
+    .contact-form form {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    label {
+      display: block;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 0.4rem;
+      font-size: 0.93rem;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 0.95rem 1rem;
+      font: inherit;
+      outline: none;
+      background: #fbfdff;
+      transition: 0.2s ease;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      border-color: rgba(29, 116, 183, 0.45);
+      box-shadow: 0 0 0 4px rgba(29,116,183,0.08);
+      background: white;
+    }
+
+    textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+   footer {
+  background: linear-gradient(135deg, #0b1b2e, #102641);
+  color: rgba(255,255,255,0.78);
+  padding: 2.5rem 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-brand strong {
+  display: block;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.footer-brand p {
+  margin: 0;
+  color: rgba(255,255,255,0.72);
+  font-size: 0.95rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  position: relative;
+  color: rgba(255,255,255,0.82);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: var(--gold);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-links a:hover::after {
+  width: 100%;
+}
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: 0.7s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 1050px) {
+      .hero-grid,
+      .about-grid,
+      .contact-grid,
+      .comparison-grid,
+      .cta-wrap {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-card {
+        justify-self: start;
+      }
+
+      .services-grid,
+      .projects-grid,
+      .testimonial-grid,
+      .why-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+    
+
+      .trust-wrap {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .image-stack {
+        min-height: 450px;
+      }
+    }
+
+    
+.hero-grid,
+.hero-copy,
+.hero-card,
+.hero-kicker,
+.hero h1,
+.hero p,
+.hero-actions {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: heroFadeUp 1s ease forwards;
+}
+
+.hero-grid {
+  animation-delay: 0.15s;
+}
+
+.hero-kicker {
+  animation-delay: 0.25s;
+}
+
+.hero h1 {
+  animation-delay: 0.4s;
+}
+
+.hero p {
+  animation-delay: 0.6s;
+}
+
+.hero-actions {
+  animation-delay: 0.8s;
+}
+
+.hero-card {
+  animation-delay: 1s;
+}
+
+@keyframes heroFadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes videoFade {
+  to {
+    opacity: 1;
+  }
+}
+
+    @media (max-width: 780px) {
+      nav {
+        position: fixed;
+        inset: 78px 1rem auto 1rem;
+        background: rgba(10,24,41,0.97);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 20px;
+        padding: 1rem;
+        display: none;
+      }
+
+      nav.open {
+        display: block;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 0.9rem;
+      }
+
+      .mobile-toggle {
+        display: block;
+      }
+
+      .nav-cta .btn {
+        display: none;
+      }
+
+      .hero-grid {
+        min-height: auto;
+        padding-top: 3rem;
+      }
+
+      .hero-points,
+      .services-grid,
+      .projects-grid,
+      .testimonial-grid,
+      .why-grid,
+      .about-bullets,
+      .form-row,
+      .trust-wrap {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        max-width: 10ch;
+      }
+
+      .hero-card {
+        width: 100%;
+      }
+
+      .image-stack {
+        min-height: auto;
+        display: grid;
+        gap: 1rem;
+      }
+
+    .image-stack img {
+  position: static;
+  width: 100%;
+  border: 6px solid white;
+}
+
+
+.image-stack .img-main {
+  height: 360px;
+  object-fit: cover;
+  object-position: center 32%;
+}
+
+
+.image-stack .img-float {
+  height: 280px;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.image-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+      .cta-wrap {
+        text-align: left;
+      }
+      .why-card {
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.why-card .service-icon {
+  width: 72px;
+  height: 72px;
+  min-width: 72px;
+  min-height: 72px;
+  padding: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.why-card .service-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.why-card h3 {
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+.why-card p {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+.why-card {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <img src="limitless logo 3.png" alt="Limitless Outdoor Living Logo" class="logo-img">
+        <div class="brand-text">
+    <strong>Limitless Outdoor Living</strong>
+    <small>Luxury Outdoor Transformations</small>
+  </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">☰</button>
+
+      <nav id="mainNav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn btn-primary" href="#contact">Get a Free Estimate</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="hero-video.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="container hero-grid">
+        <div class="reveal visible">
+          <div class="eyebrow">Luxury Outdoor Transformations</div>
+          <h1>Luxury Decks & Outdoor Living in Atlanta</h1>
+          <p>
+             Limitless Outdoor Living specializes in luxury outdoor living, deck building, cabana restoration, and backyard transformations in Metro Atlanta. We design and build premium outdoor spaces that elevate your home and lifestyle.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Request a Free Estimate</a>
+            <a class="btn btn-secondary" href="#projects">View Our Work</a>
+          </div>
+          <div class="hero-points">
+            <div>
+              <strong>Premium Craftsmanship</strong>
+              <span>Built with detail, durability, and design in mind.</span>
+            </div>
+            <div>
+              <strong>Luxury Outdoor Focus</strong>
+              <span>Poolside, cabanas, outdoor structures, and custom spaces.</span>
+            </div>
+            <div>
+              <strong>Designed to Impress</strong>
+              <span>High-end finishes that transform the entire property.</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal">
+          <img src="limitless-img-10.png" alt="Custom covered outdoor living structure" />
+          <h3>Luxury outdoor living, tailored to your space.</h3>
+          <p>
+            From restoring cabanas and poolside structures to creating standout exterior features, we help homeowners turn underused backyards into beautiful extensions of the home.
+          </p>
+          <a class="btn btn-dark" href="#services">Explore Services</a>
+        </aside>
+      </div>
+    </section>
+
+    <div class="trust-bar">
+      <div class="container">
+        <div class="trust-wrap reveal">
+          <div class="trust-item">
+            <strong>Custom Outdoor Design</strong>
+            High-end upgrades tailored to each property.
+          </div>
+          <div class="trust-item">
+            <strong>Sunroom & Cabana Restoration</strong>
+            Clean, durable finishes with premium detail.
+          </div>
+          <div class="trust-item">
+            <strong>Craftsmanship First</strong>
+            Materials and execution that look built-in, not added on.
+          </div>
+          <div class="trust-item">
+            <strong>Estimate-Friendly Process</strong>
+            Clear communication from concept to completion.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="about" class="section-fade">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <div class="section-head" style="margin-bottom: 0;">
+            <div class="eyebrow">About the Brand</div>
+            <h2>Outdoor spaces should feel as refined as the home itself.</h2>
+          </div>
+          <p>
+             At Limitless Outdoor Living, we provide high-end outdoor living design and construction services throughout Metro Atlanta. From custom decks and patios to cabana and sunroom restoration, every project is built with premium craftsmanship and attention to detail.
+          </p>
+          <p>
+            This brand is built around timeless materials, strong design, and outdoor spaces that homeowners are proud to enjoy, entertain in, and show off.
+          </p>
+          <div class="about-bullets">
+            <div class="bullet">Luxury backyard upgrades</div>
+            <div class="bullet">Sunroom/ Screen Porch structure restoration</div>
+            <div class="bullet">Custom outdoor carpentry</div>
+            <div class="bullet">Clean, high-end finishes</div>
+          </div>
+        </div>
+
+        <div class="image-stack reveal">
+          <img class="img-main" src="limitless-img-11.png" alt="Luxury pool " loading="lazy" />
+          <img class="img-float" src="wood and stone image.png" alt="Wood and stone" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+   <section id="services" class="services">
+  <video class="services-video" autoplay muted loop playsinline>
+    <source src="video 2 limitless.mp4" type="video/mp4">
+  </video>
+  <div class="services-overlay"></div>
+  <div class="services-fade-top"></div>
+  <div class="services-fade-bottom"></div>
+
+  <div class="container services-content">
+        <div class="section-head reveal">
+          <div class="eyebrow">Services</div>
+          <h2>Outdoor Living, Deck Building & Backyard Renovation Services in Metro Atlanta</h2>
+          <p>
+We offer professional deck building, patio upgrades, cabana restoration, custom carpentry, and full backyard transformations across Metro Atlanta and surrounding areas.
+</p>
+
+        </div>
+
+       <div class="services-grid">
+  <article class="service-card reveal">
+    <div class="service-icon"><i data-lucide="home"></i></div>
+    <h3>Screen Porch / Sunroom Renovation</h3>
+    <p>Refresh aging sunroom areas with cleaner lines, upgraded finishes, and luxury details that elevate the entire backyard experience.</p>
+  </article>
+
+  <article class="service-card reveal">
+    <div class="service-icon"><i data-lucide="tent"></i></div>
+    <h3>Cabana Restoration</h3>
+    <p>Restore weathered cabanas and outdoor structures with durable materials, refined detailing, and a renewed premium look.</p>
+  </article>
+
+  <article class="service-card reveal">
+    <div class="service-icon"><i data-lucide="hammer"></i></div>
+    <h3>Custom Carpentry</h3>
+    <p>Bring warmth, structure, and craftsmanship to the space with custom beams, trim, outdoor framing, and finish work.</p>
+  </article>
+
+  <article class="service-card reveal">
+    <div class="service-icon"><i data-lucide="layout"></i></div>
+    <h3>Deck & Patio Upgrades</h3>
+    <p>Improve flow and function with elevated patio details, platform updates, and outdoor surfaces that feel custom-built.</p>
+  </article>
+
+  <article class="service-card reveal">
+    <div class="service-icon"><i data-lucide="sprout"></i></div>
+    <h3>Backyard Transformations</h3>
+    <p>Create a more cohesive backyard experience with visual upgrades that make the entire exterior feel intentional.</p>
+  </article>
+
+  <article class="service-card reveal">
+    <div class="service-icon"><i data-lucide="sparkles"></i></div>
+    <h3>Outdoor Living Enhancements</h3>
+    <p>Add the finishing touches that turn a backyard into a luxury extension of the home for relaxing, entertaining, and everyday use.</p>
+  </article>
+</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-fade">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Featured Work</div>
+          <h2>Recent Outdoor Living & Deck Building Projects in Metro Atlanta</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <img src="limitless photo 1.jpeg" alt="Covered outdoor living with wood beams" loading="lazy" />
+            <div class="project-content">
+              <span>Outdoor Structure</span>
+              <h3>Timber-Framed Poolside Retreat</h3>
+              <p>Warm wood, stone detailing, and clean roofing lines combine to create a more substantial, luxury outdoor focal point.</p>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <img src="sunroom-img-1.png" alt="Luxury backyard pool" loading="lazy" />
+            <div class="project-content">
+              <span>Sunroom/Screen Porch Restoration</span>
+              <h3>Elevated Backyard Experience</h3>
+              <p>Dark tile, raised wall structure, and tailored landscaping work together to deliver a clean, high-end outdoor atmosphere.</p>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <img src="beam photo 2.jpeg" alt="Detailed wood beam" loading="lazy"/>
+            <div class="project-content">
+              <span>Craftsmanship</span>
+              <h3>Architectural Beam Detailing</h3>
+              <p>Custom carpentry elevates the space with stronger design character, better proportions, and a finished look that lasts.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="comparison section-fade">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Transformation Focused</div>
+          <h2>Show the difference between ordinary and unforgettable.</h2>
+         
+        </div>
+
+        <div class="comparison-grid">
+          <article class="compare-card reveal">
+            <span class="label before">Before</span>
+            <img src="limitless before 2.png" alt="Existing backyard project" loading="lazy" />
+            <h3>Underused and visually disconnected</h3>
+            <p>Older backyard spaces often feel unfinished, dated, or disconnected from the quality of the home itself.</p>
+          </article>
+          <article class="compare-card reveal">
+            <span class="label after">After</span>
+            <img src="limitless after 2.png" alt="Completed outdoor living transformation" loading="lazy" />
+            <h3>Refined, cohesive, and built to impress</h3>
+            <p>With the right structure, finish work, and design choices, the backyard becomes a true lifestyle extension of the property.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="section-fade">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Why Choose Limitless</div>
+          <h2>Luxury visual impact with the confidence of skilled craftsmanship.</h2>
+        
+        </div>
+
+        <div class="why-grid">
+  <article class="why-card reveal">
+    <div class="service-icon">
+      <img src="aestheic image 1.png" alt="Outdoor design illustration" loading="lazy">
+    </div>
+    <h3>Premium Aesthetic</h3>
+    <p>Projects are designed to feel high-end, cohesive, and architecturally intentional.</p>
+  </article>
+
+  <article class="why-card reveal">
+    <div class="service-icon">
+      <img src="craftsman image 1.png" alt="Craftsmanship illustration" loading="lazy">
+    </div>
+    <h3>Craftsmanship-Led Work</h3>
+    <p>Every detail matters, from structural elements to visual finishing touches.</p>
+  </article>
+
+  <article class="why-card reveal">
+    <div class="service-icon">
+      <img src="built for entertaining image 1.png" alt="Outdoor entertaining illustration" loading="lazy">
+    </div>
+    <h3>Built for Entertaining</h3>
+    <p>Create outdoor spaces that feel made for relaxing, hosting, and enjoying for years.</p>
+  </article>
+
+  <article class="why-card reveal">
+    <div class="service-icon">
+      <img src="tailroed image 1.png" alt="Custom property planning illustration" loading="lazy">
+    </div>
+    <h3>Tailored to the Property</h3>
+    <p>No generic add-ons. The work is shaped around the home, landscape, and goals of each client.</p>
+  </article>
+</div>
+      </div>
+    </section>
+
+    <section class="testimonials-section section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="eyebrow">Client Experience</div>
+          <h2>Premium work should come with a premium experience.</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>They completely transformed our backyard into something we actually want to spend time in every day. The quality of the work really stands out — everything feels solid, clean, and well thought out. It doesn’t feel like an add-on, it feels like part of the home.
+        </p>
+            <strong>— Michael R., Homeowner</strong>
+          </article>
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>The biggest difference was the attention to detail. From the structure to the finishing touches, everything was done right. You can tell they take pride in their work. It looks better than we even expected.</p>
+            <strong>— Daniel S., Screen Porch / Sunroom Renovation</strong>
+          </article>
+          <article class="testimonial-card reveal">
+            <div class="stars">★★★★★</div>
+            <p>From the first estimate to the final walkthrough, the entire process was smooth and professional. The space now looks like something out of a high-end magazine, but still feels practical and built to last.</p>
+            <strong>— Chris L., Outdoor Living Project</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section-fade">
+      <div class="container">
+        <div class="cta-wrap reveal">
+          <div>
+            <h3>Ready to upgrade the way your backyard lives?</h3>
+            <p>Let’s talk about your space, your goals, and what a luxury outdoor transformation could look like for your home.</p>
+          </div>
+          <a href="#contact" class="btn btn-primary">Start Your Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-fade">
+      <div class="container contact-grid">
+       <div class="contact-panel reveal">
+  <div class="eyebrow">Get in Touch</div>
+  <h2 style="margin-top: 0; color: var(--navy); font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2rem,4vw,3rem); line-height: 1.05;">
+    Request your free estimate.
+  </h2>
+
+  <p class="contact-intro">
+     Reach out directly by phone, text, or email. We proudly serve Metro Atlanta and surrounding areas with professional outdoor living and deck building services.
+  </p>
+
+  <div class="contact-highlight-grid">
+    <a class="contact-highlight contact-highlight-phone" href="tel:16783143105">
+      <span class="contact-label">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1-.24c1.12.37 2.33.56 3.59.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.26.19 2.47.56 3.59a1 1 0 0 1-.24 1z"/>
+  </svg>
+  Call
+</span>
+      <strong>678-314-3105</strong>
+      <small>Tap to call now</small>
+    </a>
+
+    <a class="contact-highlight contact-highlight-text" href="sms:16783143105">
+      <span class="contact-label">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
+  </svg>
+  Text
+</span>
+      <strong>678-314-3105</strong>
+      <small>Tap to send a text</small>
+    </a>
+
+    <a class="contact-highlight contact-highlight-email" href="mailto:limitlessoutdoorlivingco@gmail.com?subject=Outdoor%20Living%20Project%20Inquiry">
+      <span class="contact-label">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/>
+  </svg>
+  Email
+</span>
+      <strong>limitlessoutdoorlivingco@gmail.com</strong>
+      <small>Tap to send an email</small>
+    </a>
+  </div>
+
+  <div class="contact-list">
+  <div class="contact-item service-area-item">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+    </svg>
+    <strong>Service Area:</strong>
+    <span>Metro Atlanta and Surrounding Areas</span>
+  </div>
+</div>
+</div>
+        
+
+        <div class="contact-form reveal">
+         <form
+  action="https://formspree.io/f/mqewrdgk"
+  method="POST"
+>
+<input type="hidden" name="_subject" value="New Limitless Outdoor Living lead" />
+<input type="hidden" name="_next" value="thank-you.html" />
+<input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+            <div class="form-row">
+              <div>
+                <label for="name">Full Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name" required />
+              </div>
+              <div>
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone" type="tel" placeholder="(555) 555-5555" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div>
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+              <div>
+                <label for="service">Service Needed</label>
+                <select id="service" name="service">
+                  <option>Screen Porch / Sunroom Renovation</option>
+                  <option>Cabana Restoration</option>
+                  <option>Custom Carpentry</option>
+                  <option>Deck / Patio Upgrade</option>
+                  <option>Backyard Transformation</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label for="message">Project Details</label>
+              <textarea id="message" name="message" placeholder="Tell us about your outdoor space, your goals, and what you'd like to improve." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-dark">Submit Request</button>
+            <p style="margin: 0.75rem 0 0; font-size: 0.88rem; color: var(--slate);">
+  We’ll review your request and get back to you as soon as possible.
+</p>
+        
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  <div class="container footer-wrap">
+    <div class="footer-brand">
+      <strong>© Limitless Outdoor Living Co.</strong>
+      <p>Premium outdoor living, deck building, patio upgrades, and backyard transformations in Metro Atlanta, Georgia.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+  <script>
+    const mobileToggle = document.getElementById('mobileToggle');
+    const mainNav = document.getElementById('mainNav');
+
+    mobileToggle.addEventListener('click', () => {
+      mainNav.classList.toggle('open');
+    });
+
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', () => mainNav.classList.remove('open'));
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.14 });
+
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+    
+  lucide.createIcons();
+
+  </script>
+</body>
+</html>
