@@ -73,9 +73,9 @@ The website is deployed through Netlify using manual folder deployment.
 Add screenshots here:
 
 ```md
-![Homepage Screenshot](screenshots-limitless/homepage-screenshot.png)
-![Services Section](screenshots-limitless/services-screenshot.png)
-![Contact Section](screenshots-limitless/contact-screenshot.png)
+![Homepage Screenshot](limitless-outdoor-living-site/screenshots-limitless/homepage-screenshot.png)
+![Services Section](limitless-outdoor-living-site/screenshots-limitless/services-screenshot.png)
+![Contact Section](limitless-outdoor-living-site/screenshots-limitless/contact-screenshot.png)
 
 
 
